@@ -1,0 +1,99 @@
+﻿<Window x:Class="PharmacyWarehouse.Windows.AddEditBatchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmacyWarehouse.Windows"
+        mc:Ignorable="d"
+        Title="Добавление/Редактирование партии"
+        Height="550" Width="600"
+        WindowStartupLocation="CenterOwner">
+    
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Данные партии" Style="{StaticResource H2}" 
+                   Margin="0,0,0,16"/>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <!-- Номер партии -->
+                <StackPanel Margin="0,0,0,12">
+                    <TextBlock Text="Номер партии*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                    <TextBox x:Name="txtBatchNumber"/>
+                </StackPanel>
+
+                <!-- Товар -->
+                <StackPanel Margin="0,0,0,12">
+                    <TextBlock Text="Товар*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                    <ComboBox x:Name="cmbProduct" DisplayMemberPath="Name"/>
+                </StackPanel>
+
+                <!-- Поставщик -->
+                <StackPanel Margin="0,0,0,12">
+                    <TextBlock Text="Поставщик*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                    <ComboBox x:Name="cmbSupplier" DisplayMemberPath="Name"/>
+                </StackPanel>
+
+                <!-- Количество -->
+                <StackPanel Margin="0,0,0,12">
+                    <TextBlock Text="Количество*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                    <TextBox x:Name="txtQuantity" PreviewTextInput="NumberValidationTextBox"/>
+                </StackPanel>
+
+                <!-- Цены -->
+                <Grid Margin="0,0,0,12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <StackPanel Grid.Column="0" Margin="0,0,8,0">
+                        <TextBlock Text="Цена закупки*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                        <TextBox x:Name="txtPurchasePrice" PreviewTextInput="DecimalValidationTextBox"/>
+                    </StackPanel>
+                    
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Цена продажи*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                        <TextBox x:Name="txtSellingPrice" PreviewTextInput="DecimalValidationTextBox"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Даты -->
+                <Grid Margin="0,0,0,12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <StackPanel Grid.Column="0" Margin="0,0,8,0">
+                        <TextBlock Text="Дата поставки" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                        <DatePicker x:Name="dpArrivalDate"/>
+                    </StackPanel>
+                    
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Срок годности*" Style="{StaticResource BodyText}" Margin="0,0,0,4"/>
+                        <DatePicker x:Name="dpExpirationDate"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Статус -->
+                <StackPanel Margin="0,0,0,12">
+                    <CheckBox x:Name="chkIsActive" Content="Активная партия" IsChecked="True"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,16,0,0">
+            <Button Content="Отмена" Style="{StaticResource OutlineButton}" 
+                    Width="100" Click="Cancel_Click"/>
+            <Button Content="Сохранить" Style="{StaticResource PrimaryButton}" 
+                    Width="100" Margin="12,0,0,0" Click="Save_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,138 @@
+﻿<Page x:Class="PharmacyWarehouse.Pages.AuditLogPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PharmacyWarehouse.Pages"
+      Title="Журнал действий">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,20">
+            <TextBlock Text="📝" FontSize="28" VerticalAlignment="Center" Margin="0,0,12,0"/>
+            <StackPanel>
+                <TextBlock Text="Журнал действий" Style="{StaticResource H1}"/>
+                <TextBlock Text="История всех действий пользователей в системе" 
+                           Style="{StaticResource Caption}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Фильтры -->
+        <Border Grid.Row="1" Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="Фильтры журнала" Style="{StaticResource H3}" Margin="0,0,0,12"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="Дата с:" Style="{StaticResource Caption}"/>
+                        <DatePicker x:Name="dpLogFrom" Width="120"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="по:" Style="{StaticResource Caption}"/>
+                        <DatePicker x:Name="dpLogTo" Width="120"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="Пользователь:" Style="{StaticResource Caption}"/>
+                        <ComboBox x:Name="cbUser" Width="150">
+                            <ComboBoxItem Content="Все пользователи"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="Действие:" Style="{StaticResource Caption}"/>
+                        <ComboBox x:Name="cbActionType" Width="150" SelectedIndex="0">
+                            <ComboBoxItem Content="Все действия"/>
+                            <ComboBoxItem Content="Добавление"/>
+                            <ComboBoxItem Content="Редактирование"/>
+                            <ComboBoxItem Content="Удаление"/>
+                            <ComboBoxItem Content="Авторизация"/>
+                            <ComboBoxItem Content="Проведение документа"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Text="Объект:" Style="{StaticResource Caption}"/>
+                        <ComboBox x:Name="cbObjectType" Width="150" SelectedIndex="0">
+                            <ComboBoxItem Content="Все объекты"/>
+                            <ComboBoxItem Content="Товар"/>
+                            <ComboBoxItem Content="Документ"/>
+                            <ComboBoxItem Content="Партия"/>
+                            <ComboBoxItem Content="Поставщик"/>
+                            <ComboBoxItem Content="Категория"/>
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="🔍 Поиск" Style="{StaticResource PrimaryButton}" 
+                            Margin="0,0,8,0"/>
+                    <Button Content="🗑️ Очистить фильтры" Style="{StaticResource OutlineButton}"/>
+                    <Button Content="📊 Экспорт" Style="{StaticResource SecondaryButton}" 
+                            Margin="8,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Журнал -->
+        <DataGrid x:Name="dgAuditLog" Grid.Row="2" Margin="0,12,0,0" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата и время" 
+                                    Binding="{Binding Timestamp, StringFormat=\{0:dd.MM.yyyy HH:mm\}}" Width="150"/>
+                <DataGridTextColumn Header="Пользователь" Binding="{Binding UserName}" Width="150"/>
+                <DataGridTextColumn Header="Действие" Binding="{Binding ActionType}" Width="120">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ActionType}" Value="Добавление">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentGreenBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ActionType}" Value="Редактирование">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentOrangeBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ActionType}" Value="Удаление">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentRedBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ActionType}" Value="Авторизация">
+                                    <Setter Property="Foreground" Value="{StaticResource SecondaryBrush}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Объект" Binding="{Binding ObjectType}" Width="120"/>
+                <DataGridTextColumn Header="ID объекта" Binding="{Binding ObjectId}" Width="80" 
+                                    CellStyle="{StaticResource DataGridCellCenter}"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Description}" Width="300"/>
+                <DataGridTextColumn Header="IP-адрес" Binding="{Binding IpAddress}" Width="120"/>
+                <DataGridTemplateColumn Header="Детали" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Style="{StaticResource IconButton}" 
+                                    Tag="{Binding Id}">
+                                <TextBlock Text="👁️" ToolTip="Подробности"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Статистика -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,12,0,0">
+            <TextBlock Text="Всего записей:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBlock x:Name="txtTotalLogs" Text="0" FontWeight="Bold" Margin="0,0,20,0"/>
+
+            <TextBlock Text="Действий сегодня:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBlock x:Name="txtTodayLogs" Text="0" FontWeight="Bold" Foreground="{StaticResource AccentGreenBrush}"/>
+        </StackPanel>
+    </Grid>
+</Page>

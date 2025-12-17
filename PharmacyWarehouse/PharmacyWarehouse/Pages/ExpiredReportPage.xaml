@@ -1,0 +1,199 @@
+﻿<Page x:Class="PharmacyWarehouse.Pages.ExpiredReportPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PharmacyWarehouse.Pages"
+      mc:Ignorable="d" 
+      Title="Отчёт по просроченным товарам">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,20">
+            <TextBlock Text="⚠️" FontSize="28" VerticalAlignment="Center" Margin="0,0,12,0"/>
+            <StackPanel>
+                <TextBlock Text="Отчёт по просроченным товарам" Style="{StaticResource H1}"/>
+                <TextBlock Text="Анализ партий с истекшим сроком годности и стоимость потенциальных потерь" 
+                           Style="{StaticResource Caption}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Сводная информация -->
+        <Border Grid.Row="1" Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="Сводная информация" Style="{StaticResource H3}" Margin="0,0,0,12"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <Border Style="{StaticResource ErrorBox}" Margin="0,0,12,0" Width="200">
+                        <StackPanel>
+                            <TextBlock Text="Всего просроченных партий" Style="{StaticResource Caption}" 
+                                       Foreground="{StaticResource AccentRedBrush}"/>
+                            <TextBlock x:Name="txtTotalExpiredBatches" Text="0" FontSize="24" 
+                                       FontWeight="Bold" Foreground="{StaticResource AccentRedBrush}"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Style="{StaticResource ErrorBox}" Margin="0,0,12,0" Width="200">
+                        <StackPanel>
+                            <TextBlock Text="Количество товара" Style="{StaticResource Caption}" 
+                                       Foreground="{StaticResource AccentRedBrush}"/>
+                            <TextBlock x:Name="txtTotalExpiredQuantity" Text="0" FontSize="24" 
+                                       FontWeight="Bold" Foreground="{StaticResource AccentRedBrush}"/>
+                            <TextBlock Text="шт." Style="{StaticResource Caption}"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Style="{StaticResource ErrorBox}" Margin="0,0,12,0" Width="200">
+                        <StackPanel>
+                            <TextBlock Text="Общая стоимость" Style="{StaticResource Caption}" 
+                                       Foreground="{StaticResource AccentRedBrush}"/>
+                            <TextBlock x:Name="txtTotalExpiredValue" Text="0 ₽" FontSize="24" 
+                                       FontWeight="Bold" Foreground="{StaticResource AccentRedBrush}"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Style="{StaticResource Card}" Width="200">
+                        <StackPanel>
+                            <TextBlock Text="Период просрочки" Style="{StaticResource Caption}"/>
+                            <TextBlock x:Name="txtExpiryPeriod" Text="0-30 дней" FontSize="18" 
+                                       FontWeight="Bold" Foreground="{StaticResource TextDarkBrush}"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Фильтры -->
+        <Border Grid.Row="2" Style="{StaticResource FilterPanel}" Margin="0,12,0,12">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="0,0,20,0">
+                    <TextBlock Text="Срок просрочки:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                    <ComboBox x:Name="cbExpiryPeriod" Width="150" SelectedIndex="0">
+                        <ComboBoxItem Content="Все периоды"/>
+                        <ComboBoxItem Content="До 30 дней"/>
+                        <ComboBoxItem Content="30-60 дней"/>
+                        <ComboBoxItem Content="60-90 дней"/>
+                        <ComboBoxItem Content="Более 90 дней"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,20,0">
+                    <TextBlock Text="Категория:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                    <ComboBox x:Name="cbExpiredCategory" Width="180">
+                        <ComboBoxItem Content="Все категории"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Сортировка:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                    <ComboBox x:Name="cbSortBy" Width="150" SelectedIndex="0">
+                        <ComboBoxItem Content="По дате истечения"/>
+                        <ComboBoxItem Content="По стоимости"/>
+                        <ComboBoxItem Content="По количеству"/>
+                        <ComboBoxItem Content="По товару"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <Button Content="🔍 Обновить" Style="{StaticResource PrimaryButton}" 
+                        Margin="20,0,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Список просроченных партий -->
+        <DataGrid x:Name="dgExpired" Grid.Row="3" AutoGenerateColumns="False">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="{StaticResource ProductExpiredBrush}"/>
+                </Style>
+            </DataGrid.RowStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№ Партии" Binding="{Binding BatchNumber}" Width="120"/>
+                <DataGridTextColumn Header="Товар" Binding="{Binding Product.Name}" Width="200"/>
+                <DataGridTextColumn Header="Категория" Binding="{Binding Product.Category.Name}" Width="150"/>
+                <DataGridTextColumn Header="Срок годности" 
+                                    Binding="{Binding ExpirationDate, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
+                <DataGridTextColumn Header="Дней просрочки" Width="120">
+                    <DataGridTextColumn.Binding>
+                        <MultiBinding StringFormat="{}{0} дней">
+                            <Binding Path="DaysExpired"/>
+                        </MultiBinding>
+                    </DataGridTextColumn.Binding>
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="Foreground" Value="{StaticResource AccentRedBrush}"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DaysExpired}" Value="-">
+                                    <Setter Property="Text" Value="ПРОСРОЧЕНО"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Количество" Binding="{Binding Количество}" Width="100" 
+                                    CellStyle="{StaticResource DataGridCellCenter}"/>
+                <DataGridTextColumn Header="Цена закупки" Binding="{Binding PurchasePrice, StringFormat=\{0:N2\} ₽}" 
+                                    Width="120" CellStyle="{StaticResource DataGridCellRight}"/>
+                <DataGridTextColumn Header="Общая стоимость" Width="120" 
+                                    CellStyle="{StaticResource DataGridCellRight}">
+                    <DataGridTextColumn.Binding>
+                        <MultiBinding StringFormat="{}{0:N2} ₽">
+                            <Binding Path="TotalValue"/>
+                        </MultiBinding>
+                    </DataGridTextColumn.Binding>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Дата списания" 
+                                    Binding="{Binding WriteOffDate, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
+                <DataGridTemplateColumn Header="Статус" Width="120">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="4" Padding="4,2" 
+                                    Background="{StaticResource AccentRedBrush}">
+                                <TextBlock Text="ПРОСРОЧЕНО" HorizontalAlignment="Center" 
+                                           Foreground="{StaticResource TextWhiteBrush}" 
+                                           FontWeight="Bold" FontSize="11"/>
+                            </Border>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Действия" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Style="{StaticResource IconButton}" 
+                                        Tag="{Binding Id}">
+                                    <TextBlock Text="📤" ToolTip="Списать"/>
+                                </Button>
+                                <Button Style="{StaticResource IconButton}"
+                                        Tag="{Binding Id}">
+                                    <TextBlock Text="👁️" ToolTip="Подробнее"/>
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Панель действий -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,12,0,0">
+            <Button Content="📤 Массовое списание" Style="{StaticResource DangerButton}" 
+                    Margin="0,0,8,0"/>
+            <Button Content="📊 Сводный отчёт" Style="{StaticResource PrimaryButton}" 
+                    Margin="0,0,8,0"/>
+            <Button Content="📧 Уведомить ответственных" Style="{StaticResource WarningButton}" 
+                    Margin="0,0,8,0"/>
+            <Button Content="🖨️ Печать акта" Style="{StaticResource OutlineButton}"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,212 @@
+﻿<Page x:Class="PharmacyWarehouse.Pages.SupplierReportPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PharmacyWarehouse.Pages"
+      mc:Ignorable="d" 
+      Title="Отчёт по поставщикам">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,20">
+            <TextBlock Text="🏢" FontSize="28" VerticalAlignment="Center" Margin="0,0,12,0"/>
+            <StackPanel>
+                <TextBlock Text="Отчёт по поставщикам" Style="{StaticResource H1}"/>
+                <TextBlock Text="Анализ работы поставщиков: объёмы поставок, задолженности, рейтинг" 
+                           Style="{StaticResource Caption}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Параметры отчёта -->
+        <Border Grid.Row="1" Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="Параметры отчёта" Style="{StaticResource H3}" Margin="0,0,0,12"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="Период:" Style="{StaticResource Caption}"/>
+                        <StackPanel Orientation="Horizontal">
+                            <DatePicker x:Name="dpSupplierFrom" Width="120" Margin="0,0,8,0"/>
+                            <TextBlock Text="—" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                            <DatePicker x:Name="dpSupplierTo" Width="120"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,20,0">
+                        <TextBlock Text="Поставщик:" Style="{StaticResource Caption}"/>
+                        <ComboBox x:Name="cbSupplier" Width="250">
+                            <ComboBoxItem Content="Все поставщики" IsSelected="True"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Text="Тип отчёта:" Style="{StaticResource Caption}"/>
+                        <ComboBox x:Name="cbSupplierReportType" Width="180" SelectedIndex="0">
+                            <ComboBoxItem Content="Сводный отчёт"/>
+                            <ComboBoxItem Content="Детализация по товарам"/>
+                            <ComboBoxItem Content="Рейтинг поставщиков"/>
+                            <ComboBoxItem Content="Анализ задолженностей"/>
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="🏢 Сформировать" Style="{StaticResource PrimaryButton}" 
+                            Margin="0,0,8,0"/>
+                    <Button Content="🔄 Сбросить" Style="{StaticResource OutlineButton}" />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Ключевые показатели -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,12,0,12">
+            <Border Style="{StaticResource Card}" Margin="0,0,12,0" Width="180">
+                <StackPanel>
+                    <TextBlock Text="Всего поставщиков" Style="{StaticResource Caption}"/>
+                    <TextBlock x:Name="txtTotalSuppliers" Text="0" FontSize="20" 
+                               FontWeight="Bold" Foreground="{StaticResource PrimaryBrush}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,12,0" Width="180">
+                <StackPanel>
+                    <TextBlock Text="Объём закупок" Style="{StaticResource Caption}"/>
+                    <TextBlock x:Name="txtTotalPurchases" Text="0 ₽" FontSize="20" 
+                               FontWeight="Bold" Foreground="{StaticResource AccentGreenBrush}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,12,0" Width="180">
+                <StackPanel>
+                    <TextBlock Text="Средний чек" Style="{StaticResource Caption}"/>
+                    <TextBlock x:Name="txtAvgSupplierCheck" Text="0 ₽" FontSize="20" 
+                               FontWeight="Bold" Foreground="{StaticResource AccentPurpleBrush}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,12,0" Width="180">
+                <StackPanel>
+                    <TextBlock Text="Активных" Style="{StaticResource Caption}"/>
+                    <TextBlock x:Name="txtActiveSuppliers" Text="0" FontSize="20" 
+                               FontWeight="Bold" Foreground="{StaticResource AccentGreenLightBrush}"/>
+                    <TextBlock Text="из всех" Style="{StaticResource Caption}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Width="180">
+                <StackPanel>
+                    <TextBlock Text="Задолженность" Style="{StaticResource Caption}"/>
+                    <TextBlock x:Name="txtTotalDebt" Text="0 ₽" FontSize="20" 
+                               FontWeight="Bold" Foreground="{StaticResource AccentOrangeBrush}"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <!-- Данные отчёта -->
+        <DataGrid x:Name="dgSupplierReport" Grid.Row="3" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Поставщик" Width="200"/>
+                <DataGridTextColumn Header="Кол-во поставок" Binding="{Binding DeliveryCount}" Width="100" 
+                                    CellStyle="{StaticResource DataGridCellRight}"/>
+                <DataGridTextColumn Header="Объём закупок" Binding="{Binding TotalAmount, StringFormat=\{0:N2\} ₽}" 
+                                    Width="120" CellStyle="{StaticResource DataGridCellRight}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="{StaticResource AccentGreenBrush}"/>
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Товаров поставлено" Binding="{Binding ProductCount}" Width="120" 
+                                    CellStyle="{StaticResource DataGridCellRight}"/>
+                <DataGridTextColumn Header="Средний чек" Binding="{Binding AvgCheck, StringFormat=\{0:N2\} ₽}" 
+                                    Width="120" CellStyle="{StaticResource DataGridCellRight}"/>
+                <DataGridTextColumn Header="Задолженность" Binding="{Binding Debt, StringFormat=\{0:N2\} ₽}" 
+                                    Width="120" CellStyle="{StaticResource DataGridCellRight}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Debt}" Value="0">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentGreenBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Debt}">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentOrangeBrush}"/>
+                                    <Setter Property="FontWeight" Value="SemiBold"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Debt}">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentRedBrush}"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Доля в закупках" Binding="{Binding Share, StringFormat=\{0:N1\} %}" 
+                                    Width="100" CellStyle="{StaticResource DataGridCellRight}"/>
+                <DataGridTextColumn Header="Рейтинг" Binding="{Binding Rating}" Width="80" 
+                                    CellStyle="{StaticResource DataGridCellCenter}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Rating}" Value="5">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentGreenBrush}"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Rating}" Value="4">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentGreenLightBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Rating}" Value="3">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentOrangeBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Rating}" Value="2">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentOrangeBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Rating}" Value="1">
+                                    <Setter Property="Foreground" Value="{StaticResource AccentRedBrush}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Последняя поставка" 
+                                    Binding="{Binding LastDelivery, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
+                <DataGridTemplateColumn Header="Действия" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Style="{StaticResource IconButton}"  
+                                        Tag="{Binding SupplierId}">
+                                    <TextBlock Text="👁️" ToolTip="Детали"/>
+                                </Button>
+                                <Button Style="{StaticResource IconButton}" 
+                                        Tag="{Binding SupplierId}">
+                                    <TextBlock Text="📞" ToolTip="Контакт"/>
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Панель действий -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="📊 Рейтинг поставщиков" Style="{StaticResource SecondaryButton}" 
+                    Margin="0,0,8,0"/>
+            <Button Content="📄 Печать отчёта" Style="{StaticResource PrimaryButton}" 
+                    Margin="0,0,8,0"/>
+            <Button Content="💾 Экспорт в Excel" Style="{StaticResource SuccessButton}" 
+                    Margin="0,0,8,0"/>
+            <Button Content="📧 Отправить менеджерам" Style="{StaticResource OutlineButton}"/>
+        </StackPanel>
+    </Grid>
+</Page>

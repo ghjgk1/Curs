@@ -1,0 +1,1235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\writeoffbatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\writeoffbatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\writeoffbatchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\writeoffbatchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\writeoffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\writeoffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\writeoffpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\writeoffpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\batchespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\batchespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\batchespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\batchespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\writeoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\writeoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\writeoffpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\writeoffpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\notificationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\notificationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\movementreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\movementreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\expiredreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\expiredreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\expirationcontrolpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\expirationcontrolpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\documentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\documentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\categoriespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\categoriespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\addeditbatchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\addeditbatchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\addeditbatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\addeditbatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\supplierspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\supplierspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\auditlogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\auditlogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\auditlogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\auditlogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\addeditsupplierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\addeditsupplierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\supplierspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\supplierspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\addeditsupplierwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\addeditsupplierwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\categoriespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\categoriespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\transferpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\transferpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\systeminfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\systeminfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\windows\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\windows\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\data\\pharmacywarehousecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\data\\pharmacywarehousecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215190120_AddSellingPriceAndIsActiveToProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PharmacyWarehouse\\Migrations\\20251215190120_AddSellingPriceAndIsActiveToProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215185943_AddMissingColumnsToProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PharmacyWarehouse\\Migrations\\20251215185943_AddMissingColumnsToProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wutte\\AppData\\Local\\Temp\\.vsdbgsrc\\2dac98fb87be3bb010ecb239956ee391936caec971ef1f4c5072236008f3dcb3\\Style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wutte\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\backuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\backuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pharmacywarehouse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pharmacywarehouse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\supplierreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\supplierreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\stockpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\stockpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\salesreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\salesreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\backuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\backuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\transferpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\transferpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\receiptpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\receiptpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\expiredreportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\expiredreportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\documentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\documentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\pages\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\pages\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\services\\movementjournalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\services\\movementjournalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\documentline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\documentline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\movementjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\movementjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\inventoryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\inventoryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\migrations\\20251215213618_addsellingpriceandisactivetoproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\migrations\\20251215213618_addsellingpriceandisactivetoproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\migrations\\20251215193059_addsellingpriceandisactivetoproduct1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\migrations\\20251215193059_addsellingpriceandisactivetoproduct1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|c:\\users\\wutte\\onedrive\\documents\\\u0442\u0440\u043F\u043E\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\pharmacywarehouse\\pharmacywarehouse\\migrations\\20251215190254_addsellingpriceandisactivetoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42AD19D-86BC-4A98-1E05-EA1B2AC0293E}|PharmacyWarehouse\\PharmacyWarehouse.csproj|solutionrelative:pharmacywarehouse\\migrations\\20251215190254_addsellingpriceandisactivetoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotificationsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\NotificationsPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\NotificationsPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\NotificationsPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\NotificationsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:15:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ProductsPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ProductsPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T12:28:58.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WriteOffPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\WriteOffPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\WriteOffPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\WriteOffPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\WriteOffPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:09:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WriteOffBatchWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T17:52:20.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BatchesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BatchesPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\BatchesPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BatchesPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\BatchesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:21:01.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\InventoryPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\InventoryPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\InventoryPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\InventoryPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T12:42:10.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\CategoriesPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\CategoriesPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\CategoriesPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\CategoriesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:10:00.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Resources\\Styles.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Resources\\Styles.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Resources\\Styles.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Resources\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T16:40:35.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\SupplierService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\SupplierService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\SupplierService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\SupplierService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T21:06:29.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEditBatchWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T17:51:02.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuditLogPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\AuditLogPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\AuditLogPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\AuditLogPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\AuditLogPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:06:38.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Resources\\Colors.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Resources\\Colors.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Resources\\Colors.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Resources\\Colors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T12:13:10.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\MainWindow.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:05:25.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TransferPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\TransferPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\TransferPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\TransferPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\TransferPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T17:18:00.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuditLogPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\AuditLogPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\AuditLogPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\AuditLogPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\AuditLogPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:43:41.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddEditSupplierWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T21:17:34.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SuppliersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SuppliersPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\SuppliersPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SuppliersPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\SuppliersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:07:18.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AddEditSupplierWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\AddEditSupplierWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T21:18:12.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\App.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\App.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\App.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T12:12:25.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20251215213618_AddSellingPriceAndIsActiveToProduct2.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215213618_AddSellingPriceAndIsActiveToProduct2.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Migrations\\20251215213618_AddSellingPriceAndIsActiveToProduct2.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215213618_AddSellingPriceAndIsActiveToProduct2.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Migrations\\20251215213618_AddSellingPriceAndIsActiveToProduct2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T21:36:18.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "BackupPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BackupPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\BackupPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BackupPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\BackupPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T17:25:37.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ReportsPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ReportsPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ReportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:12:09.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Style.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\AppData\\Local\\Temp\\.vsdbgsrc\\2dac98fb87be3bb010ecb239956ee391936caec971ef1f4c5072236008f3dcb3\\Style.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2dac98fb87be3bb010ecb239956ee391936caec971ef1f4c5072236008f3dcb3\\Style.cs",
+              "ToolTip": "C:\\Users\\wutte\\AppData\\Local\\Temp\\.vsdbgsrc\\2dac98fb87be3bb010ecb239956ee391936caec971ef1f4c5072236008f3dcb3\\Style.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2dac98fb87be3bb010ecb239956ee391936caec971ef1f4c5072236008f3dcb3\\Style.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAOcBAAAAAAAAAAAuwPUBAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T20:57:16.545Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PharmacyWarehouse.csproj",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\PharmacyWarehouse.csproj",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\PharmacyWarehouse.csproj",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\PharmacyWarehouse.csproj",
+              "RelativeToolTip": "PharmacyWarehouse\\PharmacyWarehouse.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-14T12:07:04.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\App.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\App.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:19:31.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "SupplierReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SupplierReportPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\SupplierReportPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SupplierReportPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\SupplierReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T17:22:05.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "StockPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\StockPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\StockPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\StockPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\StockPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T13:28:59.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SalesReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SalesReportPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\SalesReportPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SalesReportPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\SalesReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T17:20:19.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BackupPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BackupPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\BackupPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BackupPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\BackupPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T17:25:40.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "TransferPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\TransferPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\TransferPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\TransferPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\TransferPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T17:19:20.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ReceiptPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ReceiptPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ReceiptPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ReceiptPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ReceiptPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T12:38:58.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ExpiredReportPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:40:36.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DocumentsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\DocumentsPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\DocumentsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\DocumentsPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\DocumentsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:01:38.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\wutte\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAOsBAAAAAAAAAAAqwP4BAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:41:16.667Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "InventoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\InventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\InventoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\InventoryPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\InventoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:42:47.298Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 160,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ProductsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAAPsBAAAAAAAAAAAAACECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:38:36.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WriteOffService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\WriteOffService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\WriteOffService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\WriteOffService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\WriteOffService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:19:07.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WriteOffBatchWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\WriteOffBatchWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:08:37.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BatchesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BatchesPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\BatchesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\BatchesPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\BatchesPage.xaml.cs",
+              "ViewState": "AgIAADgBAAAAAAAAAAAAAFQBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:38:43.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WriteOff.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\WriteOff.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\WriteOff.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\WriteOff.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\WriteOff.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:56:59.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WriteOffPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\WriteOffPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\WriteOffPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\WriteOffPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\WriteOffPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T20:58:13.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovementReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\MovementReportPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\MovementReportPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\MovementReportPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\MovementReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:35:00.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExpiredReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ExpiredReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:39:54.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExpirationControlPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ExpirationControlPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\ExpirationControlPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\ExpirationControlPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\ExpirationControlPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:34:27.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DocumentsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\DocumentsPage.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\DocumentsPage.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\DocumentsPage.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\DocumentsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:32:57.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAkTAAAAAAAAAAAuwCYTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-16T19:58:42.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddEditBatchWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\AddEditBatchWindow.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowHEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:01:31.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Batch.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Batch.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Batch.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Batch.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAqwKcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:49:46.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BatchService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\BatchService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\BatchService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\BatchService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\BatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T17:38:35.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\DocumentService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAcwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:19:23.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseDbService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\BaseDbService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\BaseDbService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\BaseDbService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\BaseDbService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:45:59.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Document.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Document.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:54:29.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SuppliersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SuppliersPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\SuppliersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\SuppliersPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\SuppliersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T13:07:24.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Product.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Product.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwHQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:56:32.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Category.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:54:19.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CategoriesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\CategoriesPage.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Pages\\CategoriesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Pages\\CategoriesPage.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Pages\\CategoriesPage.xaml.cs",
+              "ViewState": "AgIAAKYBAAAAAAAAAAAiwLEBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T20:15:37.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Supplier.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Supplier.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:56:43.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddEditProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAvwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T17:44:42.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SystemInfoService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\SystemInfoService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\SystemInfoService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\SystemInfoService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\SystemInfoService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIA4wDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:44:40.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAlwKcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T11:44:49.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20251215193059_AddSellingPriceAndIsActiveToProduct1.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215193059_AddSellingPriceAndIsActiveToProduct1.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Migrations\\20251215193059_AddSellingPriceAndIsActiveToProduct1.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215193059_AddSellingPriceAndIsActiveToProduct1.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Migrations\\20251215193059_AddSellingPriceAndIsActiveToProduct1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:30:59.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\CategoryService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\CategoryService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv10AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T17:14:14.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddEditProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml",
+              "RelativeToolTip": "PharmacyWarehouse\\Windows\\AddEditProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-15T17:43:53.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\ProductService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\ProductService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:54:08.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20251215185943_AddMissingColumnsToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215185943_AddMissingColumnsToProduct.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Migrations\\20251215185943_AddMissingColumnsToProduct.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215185943_AddMissingColumnsToProduct.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Migrations\\20251215185943_AddMissingColumnsToProduct.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAAAHYBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:59:43.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20251215190254_AddSellingPriceAndIsActiveToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215190254_AddSellingPriceAndIsActiveToProduct.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Migrations\\20251215190254_AddSellingPriceAndIsActiveToProduct.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215190254_AddSellingPriceAndIsActiveToProduct.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Migrations\\20251215190254_AddSellingPriceAndIsActiveToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:02:54.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20251215190120_AddSellingPriceAndIsActiveToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215190120_AddSellingPriceAndIsActiveToProduct.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Migrations\\20251215190120_AddSellingPriceAndIsActiveToProduct.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Migrations\\20251215190120_AddSellingPriceAndIsActiveToProduct.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Migrations\\20251215190120_AddSellingPriceAndIsActiveToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T19:01:20.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PharmacyWarehouseContext.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Data\\PharmacyWarehouseContext.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Data\\PharmacyWarehouseContext.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Data\\PharmacyWarehouseContext.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Data\\PharmacyWarehouseContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:43:21.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\ObservableObject.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:53:27.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\NotificationService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T19:24:40.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "MovementJournalService.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\MovementJournalService.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Services\\MovementJournalService.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Services\\MovementJournalService.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Services\\MovementJournalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T19:24:41.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DocumentLine.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\DocumentLine.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\DocumentLine.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\DocumentLine.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\DocumentLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:54:56.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Notification.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Notification.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:56:14.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "MovementJournal.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\MovementJournal.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\MovementJournal.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\MovementJournal.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\MovementJournal.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:56:06.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "InventoryResult.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\InventoryResult.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\InventoryResult.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\InventoryResult.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\InventoryResult.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:55:59.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "PharmacyWarehouse\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\wutte\\OneDrive\\Documents\\\u0422\u0420\u041F\u041E\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\PharmacyWarehouse\\PharmacyWarehouse\\Models\\Inventory.cs",
+              "RelativeToolTip": "PharmacyWarehouse\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T18:55:50.055Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

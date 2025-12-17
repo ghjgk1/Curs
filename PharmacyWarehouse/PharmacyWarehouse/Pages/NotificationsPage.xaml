@@ -1,0 +1,372 @@
+﻿<Page x:Class="PharmacyWarehouse.Pages.NotificationsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PharmacyWarehouse.Pages"
+      mc:Ignorable="d" 
+      Title="Уведомления и предупреждения">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="Уведомления системы" Style="{StaticResource H1}"/>
+
+                <Grid Margin="0,16,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Фильтры уведомлений -->
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="Фильтры уведомлений" Style="{StaticResource H3}" Margin="0,0,0,12"/>
+
+                        <WrapPanel>
+                            <CheckBox x:Name="chkUnreadOnly" 
+                                     Content="Только непрочитанные"
+                                     IsChecked="True"
+                                     Margin="0,0,16,0"/>
+                            <CheckBox x:Name="chkShowExpired" 
+                                     Content="Просроченные товары"
+                                     IsChecked="True"
+                                     Margin="0,0,16,0"/>
+                            <CheckBox x:Name="chkShowExpiring" 
+                                     Content="Истекающие сроки"
+                                     IsChecked="True"/>
+                        </WrapPanel>
+
+                        <WrapPanel Margin="0,12,0,0">
+                            <CheckBox x:Name="chkShowLowStock" 
+                                     Content="Низкий остаток"
+                                     IsChecked="True"
+                                     Margin="0,0,16,0"/>
+                            <CheckBox x:Name="chkShowOutOfStock" 
+                                     Content="Отсутствие товара"
+                                     IsChecked="True"
+                                     Margin="0,0,16,0"/>
+                            <CheckBox x:Name="chkShowSystem" 
+                                     Content="Системные уведомления"/>
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <!-- Действия с уведомлениями -->
+                    <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+                        <Button Content="Отметить все как прочитанные" 
+                               Style="{StaticResource PrimaryButton}" 
+                               Width="220"/>
+                        <Button Content="Удалить все прочитанные" 
+                               Style="{StaticResource OutlineButton}" 
+                               Width="220"
+                               Margin="0,8,0,0"/>
+                        <Button Content="Очистить все" 
+                               Style="{StaticResource DangerButton}" 
+                               Width="220"
+                               Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <!-- СПИСОК УВЕДОМЛЕНИЙ -->
+        <Border Style="{StaticResource Card}" Grid.Row="1" Margin="0,16,0,16" Padding="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Заголовок -->
+                <Border Grid.Row="0" Style="{StaticResource CardHeader}">
+                    <TextBlock Text="Список уведомлений" 
+                              Style="{StaticResource H3}" 
+                              Foreground="{StaticResource TextWhiteBrush}"/>
+                </Border>
+
+                <!-- Таблица уведомлений -->
+                <DataGrid x:Name="dgNotifications" 
+                         Grid.Row="1"
+                         AutoGenerateColumns="False">
+
+                    <DataGrid.Columns>
+                        <!-- Прочитано -->
+                        <DataGridTemplateColumn Width="40">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox x:Name="chkIsRead" 
+                                             IsChecked="{Binding IsRead}"
+                                             HorizontalAlignment="Center"
+                                             VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <!-- Тип -->
+                        <DataGridTemplateColumn Header="Тип" Width="60">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border Width="32" 
+                                           Height="32"
+                                           CornerRadius="16"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="Background" Value="{StaticResource AccentOrangeBrush}"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Type}" Value="Expired">
+                                                        <Setter Property="Background" Value="{StaticResource AccentRedBrush}"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Type}" Value="Expiring">
+                                                        <Setter Property="Background" Value="{StaticResource AccentOrangeBrush}"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Type}" Value="LowStock">
+                                                        <Setter Property="Background" Value="{StaticResource SecondaryBrush}"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Type}" Value="OutOfStock">
+                                                        <Setter Property="Background" Value="{StaticResource AccentPurpleBrush}"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Type}" Value="System">
+                                                        <Setter Property="Background" Value="{StaticResource GrayBrush}"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <TextBlock Text="{Binding TypeIcon}"
+                                                  HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"
+                                                  FontSize="16"
+                                                  Foreground="White"/>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <!-- Дата -->
+                        <DataGridTextColumn Header="Дата" 
+                                           Width="120"
+                                           Binding="{Binding CreatedDate, StringFormat='dd.MM.yyyy HH:mm'}"
+                                           ElementStyle="{StaticResource DataGridCellCenter}"/>
+
+                        <!-- Товар -->
+                        <DataGridTextColumn Header="Товар" 
+                                           Width="200"
+                                           Binding="{Binding ProductName}"/>
+
+                        <!-- Сообщение -->
+                        <DataGridTextColumn Header="Сообщение" 
+                                           Width="300"
+                                           Binding="{Binding Message}">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="TextWrapping" Value="Wrap"/>
+                                    <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+                                    <Setter Property="ToolTip" Value="{Binding Message}"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <!-- Детали -->
+                        <DataGridTextColumn Header="Детали" 
+                                           Width="150"
+                                           Binding="{Binding Details}">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="TextWrapping" Value="Wrap"/>
+                                    <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+                                    <Setter Property="ToolTip" Value="{Binding Details}"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <!-- Срок годности -->
+                        <DataGridTextColumn Header="Срок годности" 
+                                           Width="120"
+                                           Binding="{Binding ExpirationDate, StringFormat='dd.MM.yyyy'}">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsExpired}" Value="True">
+                                            <Setter Property="Foreground" Value="{StaticResource AccentRedBrush}"/>
+                                            <Setter Property="FontWeight" Value="Bold"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsExpiring}" Value="True">
+                                            <Setter Property="Foreground" Value="{StaticResource AccentOrangeBrush}"/>
+                                            <Setter Property="FontWeight" Value="SemiBold"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <!-- Приоритет -->
+                        <DataGridTemplateColumn Header="Приоритет" Width="100">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border CornerRadius="12" 
+                                           Padding="6,2"
+                                           HorizontalAlignment="Center">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="Background" Value="{StaticResource AccentGreenBrush}"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Priority}" Value="High">
+                                                        <Setter Property="Background" Value="{StaticResource AccentRedBrush}"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Priority}" Value="Medium">
+                                                        <Setter Property="Background" Value="{StaticResource AccentOrangeBrush}"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <TextBlock Text="{Binding PriorityText}"
+                                                  Foreground="White"
+                                                  FontWeight="SemiBold"
+                                                  FontSize="11"
+                                                  HorizontalAlignment="Center"/>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <!-- Действия -->
+                        <DataGridTemplateColumn Header="Действия" Width="140">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <Button Style="{StaticResource IconButton}" 
+                                               ToolTip="Перейти к товару">
+                                            <TextBlock Text="📋"/>
+                                        </Button>
+                                        <Button Style="{StaticResource IconButton}" 
+                                               ToolTip="Перейти к партии">
+                                            <TextBlock Text="📦"/>
+                                        </Button>
+                                        <Button Style="{StaticResource IconButton}" 
+                                               ToolTip="Создать списание"
+                                               Foreground="{StaticResource AccentRedBrush}">
+                                            <TextBlock Text="🗑️"/>
+                                        </Button>
+                                        <Button Style="{StaticResource IconButton}" 
+                                               ToolTip="Удалить уведомление"
+                                               Foreground="{StaticResource GrayBrush}">
+                                            <TextBlock Text="❌"/>
+                                        </Button>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+
+                    <DataGrid.RowStyle>
+                        <Style TargetType="DataGridRow">
+                            <Style.Triggers>
+                                <!-- Непрочитанные уведомления -->
+                                <DataTrigger Binding="{Binding IsRead}" Value="False">
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="Background" Value="{StaticResource BackgroundLightBrush}"/>
+                                </DataTrigger>
+                                <!-- Высокий приоритет -->
+                                <DataTrigger Binding="{Binding Priority}" Value="High">
+                                    <Setter Property="Background" Value="{StaticResource ProductExpiredBrush}"/>
+                                </DataTrigger>
+                                <!-- Средний приоритет -->
+                                <DataTrigger Binding="{Binding Priority}" Value="Medium">
+                                    <Setter Property="Background" Value="{StaticResource ProductExpiringBrush}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.RowStyle>
+                </DataGrid>
+            </Grid>
+        </Border>
+
+        <Border Style="{StaticResource Card}" Grid.Row="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Всего уведомлений -->
+                <Border Grid.Column="0" 
+                       Background="{StaticResource BackgroundLightBrush}"
+                       Padding="16"
+                       BorderBrush="{StaticResource BorderBrush}"
+                       BorderThickness="1"
+                       CornerRadius="4">
+                    <StackPanel>
+                        <TextBlock Text="Всего" Style="{StaticResource Caption}"/>
+                        <TextBlock x:Name="txtTotalNotifications" Text="0" 
+                                  FontSize="24"
+                                  FontWeight="Bold"
+                                  Foreground="{StaticResource PrimaryBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Непрочитанные -->
+                <Border Grid.Column="1" 
+                       Margin="12,0,0,0"
+                       Background="{StaticResource BackgroundLightBrush}"
+                       Padding="16"
+                       BorderBrush="{StaticResource BorderBrush}"
+                       BorderThickness="1"
+                       CornerRadius="4">
+                    <StackPanel>
+                        <TextBlock Text="Непрочитанные" Style="{StaticResource Caption}"/>
+                        <TextBlock x:Name="txtUnreadNotifications" Text="0" 
+                                  FontSize="24"
+                                  FontWeight="Bold"
+                                  Foreground="{StaticResource AccentOrangeBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Просроченные -->
+                <Border Grid.Column="2" 
+                       Margin="12,0,0,0"
+                       Background="{StaticResource BackgroundLightBrush}"
+                       Padding="16"
+                       BorderBrush="{StaticResource BorderBrush}"
+                       BorderThickness="1"
+                       CornerRadius="4">
+                    <StackPanel>
+                        <TextBlock Text="Просроченные" Style="{StaticResource Caption}"/>
+                        <TextBlock x:Name="txtExpiredNotifications" Text="0" 
+                                  FontSize="24"
+                                  FontWeight="Bold"
+                                  Foreground="{StaticResource AccentRedBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Истекающие сроки -->
+                <Border Grid.Column="3" 
+                       Margin="12,0,0,0"
+                       Background="{StaticResource BackgroundLightBrush}"
+                       Padding="16"
+                       BorderBrush="{StaticResource BorderBrush}"
+                       BorderThickness="1"
+                       CornerRadius="4">
+                    <StackPanel>
+                        <TextBlock Text="Истекающие" Style="{StaticResource Caption}"/>
+                        <TextBlock x:Name="txtExpiringNotifications" Text="0" 
+                                  FontSize="24"
+                                  FontWeight="Bold"
+                                  Foreground="{StaticResource AccentOrangeBrush}"/>
+                    </StackPanel>
+                </Border>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>
