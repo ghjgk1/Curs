@@ -18,7 +18,7 @@
 
 ### 1. Установка
 ```bash
-git clone https://github.com/ваш-логин/pharmacy-warehouse.git
+git clone https://github.com/ghjgk1/PharmacyWarehouse.git
 ```   
 ### 2. Настройка базы данных
 Способ 1: Через консоль диспетчера пакетов (Visual Studio)
