@@ -38,15 +38,14 @@ Update-Database
 dotnet ef database update
 ```
 ### 3. Настройка подключения к БД
-Откройте файл App.config в проекте и проверьте строку подключения:
+В appsetting.json поменять строку на свою:
 
-Для SQL Server:
-
-```xml
-<connectionStrings>
-  <add name="DefaultConnection" 
-       connectionString="Server=(localdb)\mssqllocaldb;Database=PharmacyWarehouseDB;Trusted_Connection=True;" />
-</connectionStrings>
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=sql.ects;Database=PharmacyWarehouse;User Id = student_10; Password = student_10; TrustServerCertificate = True; "
+  }
+}
 ```
 ### 4. Запуск
 В Visual Studio установите проект PharmacyWarehouse как запускаемый
